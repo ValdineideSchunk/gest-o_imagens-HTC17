@@ -5,6 +5,7 @@ import { atualizandoImagem, deletandoImagem, downloadImagem, inserindoImagem, mo
 import { atualizarUsuario, criarUsuario, logarUsuario, mostrandoUmUsuario, mostrarUsuario } from "./controllers/UsuarioController.js";
 import { deleteUsuario } from "./models/UsuarioModel.js";
 
+
 const app = express();
 const porta = 5000;
 
